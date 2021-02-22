@@ -22,3 +22,17 @@ const power = (base, exponent) =>{
     }
 
 const greet = (who) => console.log("Hello " + who);
+
+/* EXERCICI 2 */
+
+ let users = 
+ [{ firstName: 'Homer', lastName: 'Simpson' },
+ { firstName: 'Marge', lastName: 'Simpson' },
+ { firstName: 'Bart', lastName: 'Simpson' },
+ { firstName: 'Lisa', lastName: 'Simpson' },
+ { firstName: 'Maggie', lastName: 'Simpson' }];
+
+ users.map(function (user) {
+    user.firstName;
+ });
+ 
