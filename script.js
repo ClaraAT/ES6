@@ -41,3 +41,17 @@ const greet = (who) => console.log("Hello " + who);
  const reducer = (total, currentValue) => (`${total} ${currentValue}`);
 
 console.log (epic.reduce(reducer))
+
+ /* EXERCICI 4 */
+
+ let myString = prompt("Write anything")
+ 
+ const reverseString = (anyString) => {
+     myArray = anyString.split("");
+     reverseArray = myArray.reverse();
+     finalArray = [...reverseArray]
+     console.log(finalArray.join(""));
+ }
+
+ reverseString (myString);
+
