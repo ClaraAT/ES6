@@ -35,4 +35,9 @@ const greet = (who) => console.log("Hello " + who);
  users.map(function (user) {
     user.firstName;
  });
- 
+
+ /* EXERCICI 3 */
+ var epic = ['a', 'long', 'time', 'ago', 'in a', 'galaxy', 'far far', 'away'];
+ const reducer = (total, currentValue) => (`${total} ${currentValue}`);
+
+console.log (epic.reduce(reducer))
