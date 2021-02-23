@@ -37,14 +37,14 @@ const greet = (who) => console.log("Hello " + who);
  });
 
  /* EXERCICI 3 */
-
+/*
  var epic = ['a', 'long', 'time', 'ago', 'in a', 'galaxy', 'far far', 'away'];
  const reducer = (total, currentValue) => (`${total} ${currentValue}`);
 
 console.log (epic.reduce(reducer))
 
  /* EXERCICI 4 */
-
+/*
  let myString = prompt("Write anything")
  
  const reverseString = (anyString) => {
@@ -55,8 +55,9 @@ console.log (epic.reduce(reducer))
  }
 
  reverseString (myString);
-
+*/
  /* EXERCICI 5 */
+ /*
  async function b() {
    let myPromise = new Promise (resolve => {
       // ...   
@@ -68,3 +69,31 @@ console.log (epic.reduce(reducer))
    doMoreWork();
    }
 }
+
+ /* EXERCICI 6 */
+var tasks = [
+   {
+      'name' : 'Start React web',
+      'duration' : 120
+   },
+   {
+      'name' : 'Work out',
+      'duration' : 60
+   },
+   {
+      'name' : 'Procrastinate on facebook',
+      'duration' : 240
+   }
+   ];
+
+let newArray = [];
+
+tasks.map(function (task) {
+      newArray.push(task.name);
+      
+   });
+
+let newArray2 = [];
+tasks.forEach(task => 
+   newArray2.push(task.name)
+)
