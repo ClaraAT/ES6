@@ -97,3 +97,24 @@ let newArray2 = [];
 tasks.forEach(task => 
    newArray2.push(task.name)
 )
+
+ /* EXERCICI 7 */
+
+ let multiplicador = (num1, num2) => {
+   let i = 1;
+   let tabla = []; 
+   while ( i < num2 ){
+      tabla.push(`${num1} ${'x'} ${i} ${'='} ${num1*i}`);
+      i++;
+   }
+
+   tabla.forEach(row =>
+      console.log(row)
+      )
+ }
+
+ let x = prompt('Introdueixi el número que vol multiplicar');
+ let y = prompt('Introdueixi el número de cops que ho vol multiplicar');
+
+ multiplicador(x,y)
+ 
