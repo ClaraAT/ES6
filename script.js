@@ -37,6 +37,7 @@ const greet = (who) => console.log("Hello " + who);
  });
 
  /* EXERCICI 3 */
+
  var epic = ['a', 'long', 'time', 'ago', 'in a', 'galaxy', 'far far', 'away'];
  const reducer = (total, currentValue) => (`${total} ${currentValue}`);
 
@@ -55,3 +56,15 @@ console.log (epic.reduce(reducer))
 
  reverseString (myString);
 
+ /* EXERCICI 5 */
+ async function b() {
+   let myPromise = new Promise (resolve => {
+      // ...   
+     })
+ }
+
+ funtion a() {
+   b().then() = > {
+   doMoreWork();
+   }
+}
